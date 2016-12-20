@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: #245269;
+    color: white;
+}
+.mark {
+    color: #66512c;
+}
+
+mark {
+    background-color: #d0d5d8;
+    color: rgba(171, 51, 31, 0.83);
+}
+
+.grid {
+    background-color: #1f7e9a;
+    color: burlywood;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    border-right: 2px solid crimson;
+}
+
+header {
+    margin-top: 20px;
+}
