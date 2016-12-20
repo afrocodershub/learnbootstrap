@@ -1,0 +1,13 @@
+.jumbotron {
+    background-color: #245269;
+    color: white;
+}
+
+aside {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #8b211e;
+}
+
+h4 {
+    margin-top: 20px;
+}
