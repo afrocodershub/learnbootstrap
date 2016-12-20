@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Bootstrap Tutorial 03</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!--<meta http-equiv="refresh" content="0.5">-->
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</head>
+
+	<body>
+		<header class="jumbotron container">
+			<h1>03 Why Bootstrap?</h1>
+			<p>In this lesson we'll learn about different tags are formatted in bootstrap and how different they look from the generic
+				HTML rendering that we know</p>
+			<aside class="col-sm-10">
+				<h4>Defaults</h4>
+				<ul class="list-unstyled">
+					<li>Bootstrap's global default font-size is 14px, with a line-height of 1.428. This is applied to the <code>
+                &lt;body&gt;</code> and all paragraphs.
+					</li>
+					<li>All <code>&lt;p&gt;</code> elements have a bottom margin that equals half their computed line-height (10px by default).
+					</li>
+				</ul>
+				<p class="lead"> for complete reference, check out <a href="www.w3schools.com/bootstrap/bootstrap_ref_css_text" target="_blank">WW3 Schools</a>					.html
+				</p>
+			</aside>
+		</header>
+		<div class="container">
+			<h1>Bootstrap Defaults vs. Browser Defaults</h1>
+			<section>
+				<p>Alas! The <code>&lt;code&gt;</code> element!</p>
+				<h3>The <code>&lt;small&gt;</code> element
+					<small>can be used to create a lighter, secondary text in headings</small>
+				</h3>
+				<p>The <code>&lt;mark&gt;</code> element is used to
+					<mark> highlight</mark>
+					text.
+				</p>
+				<p>The <code>&lt;abbr&gt;</code> element is used to mark up an abbreviation or acronym: The <abbr title="World Health Organization">WHO</abbr>					was founded in 1948.</p>
+				<p>The <code>&lt;blockquote&gt;</code> element is used to present content from another source:</p>
+				<blockquote>
+					<p>Ubi est secundus byssus? Cum fluctui mori, omnes humani generises manifestum peritus, audax nutrixes. Orexiss manducare!
+						Est superbus capio, cesaris. Lotus, mirabilis tabess solite captis de salvus, superbus gabalium. cum fermium observare,
+						omnes urbses perdere dexter, primus resistentiaes. unt extumes examinare barbatus, domesticus bullaes.</p>
+					<footer class="blockquote-footer">King James XII</footer>
+				</blockquote>
+				<p>To show the quote on the right, use the <code>.blockquote-reverse</code> class:</p>
+				<blockquote class="blockquote-reverse">
+					<p>Ubi est secundus byssus? Cum fluctui mori, omnes humani generises manifestum peritus, audax nutrixes. Orexiss manducare!
+						Est superbus capio, cesaris. Lotus, mirabilis tabess solite captis de salvus, superbus gabalium. cum fermium observare,
+						omnes urbses perdere dexter, primus resistentiaes. unt extumes examinare barbatus, domesticus bullaes.</p>
+					<footer class="blockquote-footer">King James XII</footer>
+				</blockquote>
+				<p>The <code>&lt;dl&gt;</code> element indicates a description list:</p>
+				<dl>
+					<dt>Coffee</dt>
+					<dd>- black hot drink</dd>
+					<dt>Milk</dt>
+					<dd>- white cold drink</dd>
+				</dl>
+				<p>To indicate input that is typically entered via the keyboard, use the <code>&lt;dl&gt;</code> element: Use
+					<kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+				<p>For multiple lines of code, use the <code>&lt;pre&gt;</code> element:</p>
+				<pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks.
+            nn    nn   oo   mm     mm   oo
+            nn n  nn oo  oo mm m m mm oo  oo
+            nn   nnn oo  oo mm  m  mm oo  oo
+            nn    nn   oo   mm  m  mm   oo
+</pre>
+				<h2>Contextual Colors</h2>
+				<p>Use the contextual classes to provide "meaning through colors":</p>
+				<p class="text-muted">This text is muted. <code>.text-muted</code></p>
+				<p class="text-primary">This text is important. <code>.text-primary</code></p>
+				<p class="text-success">This text indicates success. <code>.text-success</code></p>
+				<p class="text-info">This text represents some information. <code>.text-info</code></p>
+				<p class="text-warning">This text represents a warning. <code>.text-warning</code></p>
+				<p class="text-danger">This text represents danger. <code>.text-danger</code></p>
+				<h2>Contextual Backgrounds</h2>
+				<p>Use the contextual background classes to provide "meaning through colors":</p>
+				<p class="bg-primary">This text is important. <code>.bg-primary</code></p>
+				<p class="bg-success">This text indicates success. <code>.bg-success</code></p>
+				<p class="bg-info">This text represents some information. <code>.bg-info</code></p>
+				<p class="bg-warning">This text represents a warning. <code>.bg-warning</code></p>
+				<p class="bg-danger">This text represents danger. <code>.bg-danger</code></p>
+				<p>Use the <code>.lead</code> class to make a paragraph "stand out":</p>
+				<p class="lead">This paragraph stands out. Where is the most unusual green people?</p>
+				<p>This is a regular paragraph.</p>
+				<p class="text-md-left"><code>.text-left</code> With gingers drink sweet chili sauce.</p>
+				<p class="text-md-right"><code>.text-right</code> I'm trying to free your mind Neo</p>
+				<p class="text-md-center"><code>.text-center</code> You have wings, learn to fly.</p>
+				<p class="text-justify"><code>.text-justify</code> Clemens deus rare magicaes bubo est. Cantare foris ducunt ad talis hydra. Pol, a bene homo,
+					clabulare! Est germanus sectam, cesaris. Nunquam resuscitabo elogium. Nunquam demitto saga. Elogiums sunt capios de
+					secundus detrius. Sunt homoes visum noster, emeritis apolloniateses.</p>
+				<p class="text-nowrap"><code>.text-nowrap</code> Clemens deus rare magicaes bubo est. Cantare foris ducunt ad talis hydra. Pol, a bene homo,
+					clabulare! Est germanus sectam, cesaris. Nunquam resuscitabo elogium. Nunquam demitto saga. Elogiums sunt capios de
+					secundus detrius. Sunt homoes visum noster, emeritis apolloniateses.</p>
+				<p><code>.text-lowercase</code><span class="text-lowercase"> Let there be light!</span></p>
+				<p><code>.text-uppercase</code><span class="text-uppercase"> Where there is ruin, there is hope for a treasure.</span></p>
+				<p><code>.text-capitalize</code><span class="text-capitalize"> The world is yours.</span></p>
+			</section>
+		</div>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</body>
+
+</html>
