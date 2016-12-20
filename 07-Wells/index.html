@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Tutorial 07</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<meta http-equiv="refresh" content="0.5">-->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+
+</head>
+<body>
+
+
+<section class="container">
+    <header class="jumbotron">
+        <h1>07 Wells Alerts, Buttons, Button Groups</h1>
+        <p>
+            The <code>.well</code> class adds a rounded border around an element with gray background color and some
+            padding, However, It has been dropped for the <code>.card</code> class. See change log of <span
+                class="lead">bootstrap 4</span>:
+        </p>
+    </header>
+    <div class="card">Basic Well</div>
+
+    <h3 class="modal-header">Alerts</h3>
+    <div class="alert alert-success"><code>.alert-success</code></div>
+    <div class="alert alert-danger"><code>.alert-danger</code></div>
+    <div class="alert alert-warning"><code>.alert-warning</code></div>
+    <div class="alert alert-link"><code>.alert-link</code></div>
+    <div class="alert alert-info"><code>.alert-info</code></div>
+    <div class="alert alert-heading"><code>.alert-heading</code></div>
+    <div class="alert alert-dismissible"><code>.alert-dismissible</code></div>
+
+    <h3 class="modal-header">Dismissible Alerts</h3>
+    <div class="alert alert-success">
+        <code>.alert-success</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div class="alert alert-danger">
+        <code>.alert-danger</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div class="alert alert-warning">
+        <code>.alert-warning</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div class="alert alert-link">
+        <code>.alert-link</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div class="alert alert-info">
+        <code>.alert-info</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div class="alert alert-heading">
+        <code>.alert-heading</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+    <div class="alert alert-dismissible">
+        <code>.alert-dismissible</code>
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+
+    <h3 class="modal-header">Animated Alerts</h3>
+    <div class="alert alert-success fade in"><code>.alert-success</code><a href="#" class="close" data-dismiss="alert"
+                                                                           aria-label="close">&times;</a></div>
+
+    <h3 class="modal-header">Buttons</h3>
+    <div class="btn-group btn-group-vertical">
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+    <a href="#" class="btn btn-info btn-lg" role="button">Link Button</a>
+    <button type="button" class="btn btn-info btn-sm">Button</button>
+    <input type="button" class="btn btn-info btn-outline-primary" value="outline primary">
+    <input type="submit" class="btn btn-info btn-outline-secondary" value="outline secondary">
+    <input type="button" class="btn btn-info active" value="active">
+    <input type="submit" class="btn btn-info disabled" value="disabled">
+
+    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" onautocomplete="off">Link
+    </button>
+
+    <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-primary active">
+            <input type="checkbox" checked autocomplete="off">Pre Checked
+        </label>
+        <label class="btn btn-primary">
+            <input type="checkbox" autocomplete="off">Box 2
+        </label>
+        <label class="btn btn-primary">
+            <input type="checkbox" autocomplete="off">Box 3
+        </label>
+    </div>
+
+
+    <div class="btn-group btn-group-vertical" data-toggle="buttons">
+        <label class="btn btn-primary active">
+            <input type="radio" name="options" id="option1" checked autocomplete="off">Pre Checked
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="options" id="option2" autocomplete="off">radio 2
+        </label>
+        <label class="btn btn-primary">
+            <input type="radio" name="options" id="option3" autocomplete="off">radio 3
+        </label>
+
+    </div>
+
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary">First</button>
+        <button type="button" class="btn btn-primary">Second</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                Sony <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Tablet</a></li>
+                <li><a href="#">Smartphone</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary dropdown-toggle" id="dropDownMenuButton"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropping!!!</button>
+
+        <div class="dropdown-menu" role="menu" aria-labelledby="dropDownMenuButton">
+            <a href="#" class="dropdown-item">Tablet</a>
+            <a href="#">Smartphone</a>
+        </div>
+    </div>
+</section>
+
+
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+</body>
+</html>
