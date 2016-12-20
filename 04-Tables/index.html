@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Bootstrap Tutorial 04</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<!--<meta http-equiv="refresh" content="0.5">-->
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</head>
+
+	<body>
+		<header class="jumbotron container">
+			<h1>04 Working With Tables</h1>
+			<p>In this lesson we'll learn about different tags are formatted in bootstrap and how different they look from the generic
+				HTML rendering that we know</p>
+			<aside class="col-sm-10">
+				<h4>Defaults</h4>
+				<ul class="list-unstyled">
+					<li>The <code>.table</code> class adds basic styling (light padding and only horizontal dividers) to a table
+					</li>
+					<li>The <code>.table-responsive</code> class creates a responsive table. The table will then scroll horizontally on small
+						devices (under 768px). When viewing on anything larger than 768px wide, there is no difference</li>
+				</ul>
+			</aside>
+		</header>
+		<section class="container">
+			<h1><code>.table</code></h1>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+					<tr>
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			<h1><code>.table-striped</code></h1>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+					<tr>
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			<h1><code>.table-bordered</code></h1>
+			<table class="table table-bordered">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+					<tr>
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			<h1><code>.table-hover</code></h1>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+					<tr>
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			<h1><code>.table-condensed</code></h1>
+			<table class="table table-condensed">
+				<thead>
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+					</tr>
+					<tr>
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="table-responsive">
+				<h1><code>.table-responsive</code></h1>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>John</td>
+							<td>Doe</td>
+							<td>john@example.com</td>
+						</tr>
+						<tr>
+							<td>Mary</td>
+							<td>Moe</td>
+							<td>mary@example.com</td>
+						</tr>
+						<tr>
+							<td>July</td>
+							<td>Dooley</td>
+							<td>july@example.com</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h1>Contextual Classes</h1>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>Element</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="table-active">
+						<td><code>.table-active</code></td>
+						<td>Applies the hover color to the table row or table cell</td>
+					</tr>
+					<tr class="table-success">
+						<td><code>.table-success</code></td>
+						<td>Indicates a successful or positive action</td>
+					</tr>
+					<tr class="table-warning">
+						<td><code>.table-warning</code></td>
+						<td>Indicates a warning that might need attention</td>
+					</tr>
+					<tr class="table-info">
+						<td><code>.table-info</code></td>
+						<td>Indicates a neutral informative change or action</td>
+					</tr>
+					<tr class="table-danger">
+						<td><code>.table-danger</code></td>
+						<td>Indicates a dangerous or potentially negative action</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.1.1.min.js"></script>
+	</body>
+
+</html>
